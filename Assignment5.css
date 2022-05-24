@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  text-align: center;
+  background-color: yellow;
+  width: 100%;
+  min-height: 150vh;
+}
+.heading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+a {
+  font-size: 20px;
+}
+.link {
+  padding-top: 50px;
+}
+.main_container {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.i1 {
+  margin: 10% 0% 0% 10%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  
+}
+.i11 {
+  background-color: rgb(192, 211, 227);
+  animation: li1 infinite 4s ease-in-out;
+}
+@keyframes li1 {
+  30% {
+    transform: skewX(30deg);
+  }
+  60% {
+    transform: skewX(-30deg);
+  }
+}
+.li2 {
+  animation: li2 infinite 6s 0s alternate-reverse;
+  background-color: cadetblue;
+}
+@keyframes li2 {
+  from {
+    transform: skewY(40deg);
+  }
+  to {
+    transform: skewY(-40deg);
+  }
+}
+.li3 {
+  animation: li3 infinite 5s 1s linear;
+  background-color: rgb(40, 153, 197);
+}
+@keyframes li3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.li41 {
+  width: 100px;
+  height: 80px;
+  animation: li41 infinite 5s 0s alternate-reverse;
+  background-color: rgb(40, 153, 197);
+}
+@keyframes li41 {
+  40% {
+    transform: scaleY(2);
+  }
+  60% {
+    transform: scaleY(2);
+  }
+}
+.li42 {
+  height: 100px;
+  width: 100px;
+  animation: li42 infinite 5s 0s alternate-reverse;
+  background-color: brown;
+}
+@keyframes li42 {
+  30% {
+    transform: scaleX(2);
+  }
+  50% {
+    transform: scaleX(2);
+  }
+}
+.li43 {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  animation: li43 infinite 6s alternate-reverse;
+}
+@keyframes li43 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(220deg);
+  }
+}
